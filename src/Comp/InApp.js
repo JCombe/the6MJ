@@ -8,9 +8,9 @@ function InApp() {
     return (
 
         < div className="inApp" >
-            <img className="imgLeft" src={journalNight} width={260} height={563} alt="error" />
+            <img className="imgLeft" src={journalNight} width={195} height={422} alt="error" />
             <img className="imgMid" src={journalDay} width={260} height={563} alt="error" />
-            <img className="imgRight" src={journalCalendar} width={260} height={563} alt="error" />
+            <img className="imgRight" src={journalCalendar} width={195} height={422} alt="error" />
         </div >
     )
 }

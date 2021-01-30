@@ -1,14 +1,9 @@
 .inApp {
   display: flex;
   justify-content: space-between;
-}
-
-.imgLeft {
-  margin-left: 45px;
-}
-
-.imgRight {
-  margin-right: 45px;
+  align-items: center;
+  margin-left: 220px;
+  margin-right: 220px;
 }
 
 .imgMid:hover {
