@@ -1,0 +1,38 @@
+.navComp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navCompRight {
+  display: flex;
+  align-items: center;
+  margin-right: 45px;
+}
+
+.navComp > h1 {
+  color: #093445;
+  margin-left: 45px;
+  font-family: crimson text;
+}
+
+.navCompRight > h2 {
+  color: #093445;
+  font-family: crimson text;
+}
+
+.navCompRight > button {
+  font-family: crimson text;
+  font-size: 18px;
+  margin-left: 30px;
+  color: #093445;
+  background-color: white;
+  border: 2px solid #093445;
+  border-radius: 10px;
+  padding: 10px 50px;
+}
+
+.navCompRight > button:hover {
+  color: white;
+  background-color: #093445;
+}

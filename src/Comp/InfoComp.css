@@ -1,0 +1,38 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  font-family: crimson text;
+  color: #093445;
+  text-align: center;
+}
+
+.infoTop {
+  max-width: 550px;
+  margin: 10px auto;
+}
+
+.infoBot {
+  margin-top: 10px;
+}
+
+.infoBot > button {
+  font-family: crimson text;
+  font-size: 18px;
+  margin-left: 30px;
+  color: white;
+  background-color: #093445;
+  border-radius: 10px;
+  padding: 10px 50px;
+}
+
+.infoBot > button:hover {
+  background-color: #32677c;
+}
+
+.appleIcon {
+  margin-right: 15px;
+}
+
+.infoBot > h6 {
+  margin-top: 5px;
+}

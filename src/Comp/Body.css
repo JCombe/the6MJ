@@ -1,0 +1,5 @@
+.body {
+  height: 100vh;
+  background: url(../Assets/dotedBG.jpg);
+  background-size: cover;
+}
