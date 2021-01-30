@@ -1,0 +1,27 @@
+.inApp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgLeft {
+  margin-left: 45px;
+}
+
+.imgRight {
+  margin-right: 45px;
+}
+
+.imgMid:hover {
+  transform: scale(1.2, 1.2);
+  transition: transform 2000ms;
+}
+
+.imgLeft:hover {
+  transform: scale(1.2, 1.2);
+  transition: transform 2000ms;
+}
+
+.imgRight:hover {
+  transform: scale(1.2, 1.2);
+  transition: transform 2000ms;
+}

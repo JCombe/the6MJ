@@ -1,10 +1,12 @@
 import React from 'react'
 import "./FeaturesComp.css"
+import InApp from "./InApp.js"
 
 function FeaturesComp() {
     return (
-        <div>
-
+        <div className="features">
+            <h1>Features</h1>
+            <InApp />
         </div>
     )
 }
