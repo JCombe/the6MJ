@@ -6,6 +6,33 @@
   margin-right: 220px;
 }
 
+.imgLeft {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.imgMid {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.imgRight {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
 .imgMid:hover {
   transform: scale(1.2, 1.2);
   transition: transform 2000ms;
