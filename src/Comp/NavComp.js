@@ -1,6 +1,5 @@
 import React from 'react'
 import "./NavComp.css"
-import dotedBG from "../Assets/dotedBG.jpg"
 import Button from '@material-ui/core/Button';
 
 
