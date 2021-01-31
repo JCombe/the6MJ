@@ -21,12 +21,13 @@
 
 .infoBot > button {
   font-family: crimson text;
-  font-size: 18px;
-  margin-left: 30px;
+  margin: auto;
+  font-size: 15px;
   color: white;
   background-color: #093445;
   border-radius: 10px;
   padding: 10px 50px;
+  width: 300px;
 }
 
 .infoBot > button:hover {
@@ -39,4 +40,10 @@
 
 .infoBot > h6 {
   margin-top: 5px;
+}
+
+@media screen and (max-width: 601px) {
+  .infoBot > button {
+    width: 100%;
+  }
 }

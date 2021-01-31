@@ -3,38 +3,55 @@
   align-items: center;
   justify-content: space-between;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
-  height: 80px;
+  height: fit-content;
 }
 
 .navCompRight {
   display: flex;
   align-items: center;
-  margin-right: 45px;
+  margin-right: 30px;
 }
 
-.navComp > h1 {
+.title {
   color: #093445;
   margin-left: 45px;
   font-family: crimson text;
+  font-size: 30px;
 }
 
-.navCompRight > h2 {
+.navBtn {
   color: #093445;
   font-family: crimson text;
+  font-size: 20px;
+  margin-right: 30px;
 }
 
 .navCompRight > button {
   font-family: crimson text;
   font-size: 18px;
-  margin-left: 30px;
+  margin: 5px 0px;
   color: #093445;
   background-color: white;
   border: 2px solid #093445;
   border-radius: 10px;
-  padding: 10px 50px;
+  padding: 5px 25px;
 }
 
 .navCompRight > button:hover {
   color: white;
   background-color: #093445;
+}
+
+@media screen and (max-width: 601px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .navBtn {
+    font-size: 13px;
+  }
+
+  .navBtn {
+    font-size: 15px;
+  }
 }

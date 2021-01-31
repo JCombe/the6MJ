@@ -6,9 +6,9 @@ import Button from '@material-ui/core/Button';
 function NavComp() {
     return (
         <div className="navComp">
-            <h1>The Six Minute Journal</h1>
+            <div className="title">The Six Minute Journal</div>
             <div className="navCompRight">
-                <h2>Features</h2>
+                <div className="navBtn">Features</div>
                 <Button>Get App</Button>
             </div>
         </div>
