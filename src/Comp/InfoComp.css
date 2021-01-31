@@ -4,11 +4,15 @@
   font-family: crimson text;
   color: #093445;
   text-align: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
 }
 
 .infoTop {
   max-width: 550px;
-  margin: 10px auto;
+  margin: 70px auto;
 }
 
 .infoBot {

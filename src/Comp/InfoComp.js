@@ -2,10 +2,12 @@ import React from 'react'
 import "./InfoComp.css"
 import Button from '@material-ui/core/Button';
 import AppleIcon from '@material-ui/icons/Apple';
+import beach from "../Assets/beach.jpg"
+
 
 function InfoComp() {
     return (
-        <div className="info">
+        <div className="info" style={{ backgroundImage: `url(${beach})` }}>
             <div className="infoTop">
                 <h1>The Six Minute Journal.
                 Your journal for boosting your daily joy and productivity.

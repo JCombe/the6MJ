@@ -1,21 +1,14 @@
 import React from 'react'
 import "./InApp.css"
-import journalCalendar from "../Assets/JournalCalendar.png"
-import journalDay from "../Assets/JournalDay.png"
-import journalNight from "../Assets/JournalNight.png"
 
-function InApp() {
+
+function InApp({ img, feature, imgStart }) {
     return (
 
-        < div className="imgs" >
-
-            <div className="imgBox" style={{ backgroundImage: `url(${journalNight})` }}>
-
+        < div className="inApp" style={{ display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row' }}>
+            <div className="imgBox" style={{ backgroundImage: `url(${img})` }}>
             </div>
-            <div className="imgBox" style={{ backgroundImage: `url(${journalDay})` }}>
-            </div>
-            <div className="imgBox" style={{ backgroundImage: `url(${journalCalendar})` }}>
-            </div>
+            <p>{feature}</p>
         </div >
     )
 }
