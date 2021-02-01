@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.5);
+  background-color: #edc1b4;
 }
 
 .footer > h6 {
