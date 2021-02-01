@@ -4,7 +4,9 @@
   background-color: #edc1b4;
 }
 
-.footer > h6 {
+.footer > h5 {
+  font-family: crimson text;
+  color: #093445;
   margin-left: 45px;
   margin-right: 45px;
 }

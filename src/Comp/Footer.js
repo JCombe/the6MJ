@@ -4,8 +4,8 @@ import "./Footer.css"
 function Footer() {
     return (
         <div className="footer">
-            <h6>This website was designed and created by Julian Biscombe.</h6>
-            <h6>Impressum</h6>
+            <h5>This website was designed and created by Julian Biscombe.</h5>
+            <h5>Impressum</h5>
         </div>
     )
 }

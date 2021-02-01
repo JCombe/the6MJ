@@ -73,3 +73,19 @@
   width: 100%;
   height: 70px;
 }
+
+@media screen and (max-width: 601px) {
+  .imgBox {
+    margin: auto 10px;
+  }
+
+  .featureTitle {
+    font-size: 25px;
+    width: 200px;
+  }
+
+  .feature {
+    font-size: 20px;
+    width: 200px;
+  }
+}
