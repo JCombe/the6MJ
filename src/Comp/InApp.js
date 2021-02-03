@@ -7,7 +7,7 @@ function InApp({ img, featureTitle, feature, imgStart, header, wave }) {
 
         < div className="inApp" >
             <div className="inAppTop">
-                <h1 style={{ display: header === "on" ? "flex" : "none", }}>Features</h1>
+                <h1 style={{ display: header === "on" ? "flex" : "none", }}>Merkmale</h1>
 
             </div>
             <div className="inAppBot" style={{ display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row' }}>

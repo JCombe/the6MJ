@@ -18,12 +18,12 @@
 .inAppBot {
   padding-top: 50px;
   padding-bottom: 50px;
-  display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .imgBox {
+  display: flex;
   justify-content: space-evenly;
   background-position: center center;
   background-size: cover;
@@ -87,5 +87,10 @@
   .feature {
     font-size: 20px;
     width: 200px;
+  }
+
+  .inAppBot {
+    display: flex !important;
+    flex-direction: column-reverse !important;
   }
 }
