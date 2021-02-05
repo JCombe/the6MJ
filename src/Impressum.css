@@ -1,3 +1,29 @@
-.impressum {
-  background-color: red;
+.impressumComp {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #edc1b4, #eeddd8);
+  height: fit-content;
+
+  color: #093445;
+  font-family: crimson text;
+  line-height: normal;
+}
+
+.impressumContent {
+  padding: 50px;
+}
+
+.footerImg {
+  position: relative;
+  top: -10px;
+}
+
+.wave {
+  position: relative;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 70px;
+  bottom: 0px;
 }

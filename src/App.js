@@ -2,7 +2,7 @@ import './App.css';
 import NavComp from "./Comp/NavComp.js"
 import Body from "./Comp/Body.js"
 import Footer from "./Comp/Footer.js"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { BrowserRouter, BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import Impressum from './Impressum';
 
 
@@ -11,23 +11,35 @@ function App() {
 
 
   return (
-    <div className="App">
-      <Router>
 
-
+    <BrowserRouter>
+      <div>
         <NavComp />
-
         <Switch>
-          <Route path="/">
-            <Body />
-          </Route>
-          <Route path="/Impressum">
-            <Impressum />
-          </Route>
+          <Route path="/" component={Body} exact />
+          <Route path="/Impressum" component={Impressum} />
         </Switch>
         <Footer />
-      </Router>
-    </div>
+      </div>
+    </BrowserRouter>
+
+    // <div className="App">
+    //   <Router>
+
+
+    //     <NavComp />
+
+    //     <Switch>
+    //       <Route path="/">
+    //         <Body />
+    //       </Route>
+    //       <Route path="/Impressum">
+    //         <Impressum />
+    //       </Route>
+    //     </Switch>
+    //     <Footer />
+    //   </Router>
+    // </div>
   );
 }
 

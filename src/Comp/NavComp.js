@@ -14,7 +14,7 @@ function NavComp() {
     return (
         <div className="navComp">
 
-            <div className="title">Productive Diary</div>
+            <a href="/" className="title">Productive Diary</a>
             <div className="navCompRight">
                 <a href="#featuresCompID" className="navBtn">Merkmale</a>
                 <Button onClick={() => setOpened(true)}>Anmelden</Button>

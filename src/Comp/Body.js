@@ -7,7 +7,7 @@ import FeaturesComp from './FeaturesComp';
 function Body() {
 
     return (
-        <div className="body" >
+        <div className="body" id="bodyID">
             <InfoComp />
             <FeaturesComp />
         </div>

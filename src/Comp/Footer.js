@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Footer.css"
+import wave4 from "../Assets/wave4.png"
+
 
 function Footer() {
     return (
@@ -11,6 +13,7 @@ function Footer() {
                 Impressum
                 {/* <h5>Impressum</h5> */}
             </Link>
+
         </div>
 
     )
