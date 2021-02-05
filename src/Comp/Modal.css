@@ -91,10 +91,20 @@
   background-color: #093445;
   color: white;
   border-radius: 10px;
+  text-transform: none;
 }
 
 .form > Button:hover {
   background-color: #093445a9;
+}
+
+.form > Button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  pointer-events: none;
+  text-transform: none;
 }
 
 .modalBackgroundArea {

@@ -9,7 +9,12 @@ function Modal({ onClose }) {
 
     const [sent, setSent] = useState(false)
 
+
     function sendEmail(e) {
+
+        console.log("Email was sent!")
+
+        document.getElementById("sendBtn").setAttribute("disabled", "disabled")
 
         setSent(true)
 
@@ -22,6 +27,32 @@ function Modal({ onClose }) {
             }, (error) => {
                 console.log(error.text);
             });
+
+        // if (document.getElementById("nameID").value === "" ||
+        //     document.getElementById("emailID").value === "" ||
+        //     document.getElementById("messageID").value === "") {
+
+        //     console.log("Pls enter content")
+
+        // } else {
+
+        //     console.log("Email was sent!")
+
+        //     document.getElementById("sendBtn").setAttribute("disabled", "disabled")
+
+        //     setSent(true)
+
+        //     e.preventDefault();
+
+        //     emailjs.sendForm("service_0r4yfhj", 'template_uhgm5b2', e.target, 'user_9gvbbFqpDfJrVaQ1IhQl7')
+        //         .then((result) => {
+        //             console.log(result.text);
+
+        //         }, (error) => {
+        //             console.log(error.text);
+        //         });
+        // }
+
     }
 
     return (
@@ -42,16 +73,16 @@ function Modal({ onClose }) {
 
 
                     <form className="form" onSubmit={sendEmail}>
-                        <input className="inputModal" placeholder="Name" type="text" name="name" />
-                        <input className="inputModal" placeholder="E-mail-Adresse" type="email" name="email" />
-                        <textarea className="inputModalNachricht" placeholder="Nachricht" name="message" />
+                        <input id="nameId" className="inputModal" placeholder="Name" type="text" name="name" />
+                        <input id="emailId" className="inputModal" placeholder="E-mail-Adresse" type="email" name="email" />
+                        <textarea id="messageId" className="inputModalNachricht" placeholder="Nachricht" name="message" />
 
                         <br />
-                        <Button type="submit">Abschicken</Button>
+                        <Button id="sendBtn" type="submit">Abschicken</Button>
                     </form>
                 </div>
             </div>
-        </div>
+        </div >
 
     )
 }
