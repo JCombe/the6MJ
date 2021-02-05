@@ -9,7 +9,6 @@ function Modal({ onClose }) {
 
     const [sent, setSent] = useState(false)
 
-
     function sendEmail(e) {
 
         console.log("Email was sent!")
@@ -27,31 +26,6 @@ function Modal({ onClose }) {
             }, (error) => {
                 console.log(error.text);
             });
-
-        // if (document.getElementById("nameID").value === "" ||
-        //     document.getElementById("emailID").value === "" ||
-        //     document.getElementById("messageID").value === "") {
-
-        //     console.log("Pls enter content")
-
-        // } else {
-
-        //     console.log("Email was sent!")
-
-        //     document.getElementById("sendBtn").setAttribute("disabled", "disabled")
-
-        //     setSent(true)
-
-        //     e.preventDefault();
-
-        //     emailjs.sendForm("service_0r4yfhj", 'template_uhgm5b2', e.target, 'user_9gvbbFqpDfJrVaQ1IhQl7')
-        //         .then((result) => {
-        //             console.log(result.text);
-
-        //         }, (error) => {
-        //             console.log(error.text);
-        //         });
-        // }
 
     }
 
@@ -72,10 +46,10 @@ function Modal({ onClose }) {
                     }
 
 
-                    <form className="form" onSubmit={sendEmail}>
-                        <input id="nameId" className="inputModal" placeholder="Name" type="text" name="name" />
-                        <input id="emailId" className="inputModal" placeholder="E-mail-Adresse" type="email" name="email" />
-                        <textarea id="messageId" className="inputModalNachricht" placeholder="Nachricht" name="message" />
+                    <form name="myForm" className="form" onSubmit={sendEmail} >
+                        <input id="nameId" className="inputModal" placeholder="Name" type="text" name="name" required />
+                        <input id="emailId" className="inputModal" placeholder="E-mail-Adresse" type="email" name="email" required />
+                        <textarea id="messageId" className="inputModalNachricht" placeholder="Nachricht (optional)" name="message" />
 
                         <br />
                         <Button id="sendBtn" type="submit">Abschicken</Button>
