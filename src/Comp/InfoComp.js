@@ -4,15 +4,31 @@ import Button from '@material-ui/core/Button';
 import AppleIcon from '@material-ui/icons/Apple';
 import beach from "../Assets/beach.jpg"
 import wave1 from "../Assets/wave1.png"
+import ReactDOM from "react-dom"
+import Modal from "react-modal"
 import EmailPopUp from './EmailPopUp';
+import CancelIcon from '@material-ui/icons/Cancel';
+
+
+// Make sure to bind modal to your appElement
+Modal.setAppElement('#root');
+
 
 
 function InfoComp() {
 
-    const [showPopUp, setPopUp] = useState(false)
 
-    const openPopUp = () => {
-        setPopUp(prev => !prev);
+    const [modalIsOpen, setIsOpen] = useState(false)
+    function openModal() {
+        setIsOpen(true)
+    }
+
+    function afterOpenModal() {
+
+    }
+
+    function closeModal() {
+        setIsOpen(false)
     }
 
     return (
@@ -25,12 +41,26 @@ function InfoComp() {
             </div>
             <div className="infoBot">
                 <h3>Getestet und erfolgreiche Konzepte.</h3>
-                <Button onClick={openPopUp}>
+                <Button onClick={openModal}>
                     <AppleIcon className="appleIcon" style={{ fontSize: 35 }} />
                     Zur Mitteilungsliste anmelden
                 </Button>
-                <EmailPopUp showPopUp={showPopUp}
-                    setPopUp={setPopUp} />
+                <Modal
+                    isOpen={modalIsOpen}
+                    onAfterOpen={afterOpenModal}
+                    onRequestClose={closeModal}
+                    className="modalStyle"
+                    contentLabel="Example Modal"
+                >
+
+                    <CancelIcon className="cancelBtn" onClick={closeModal} />
+                    <h2 className="modalTitle">Werde sofort benachrichtig!</h2>
+                    <form className="form">
+                        <input />
+                        <br />
+                        <Button>Abschicken</Button>
+                    </form>
+                </Modal>
                 <h6>Gratis App mit besondere Leistungen für Premium-Kunden.</h6>
             </div>
             <div className="wave1" style={{ backgroundImage: `url(${wave1})` }} ></div>

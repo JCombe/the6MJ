@@ -59,3 +59,57 @@
   width: 100%;
   height: 70px;
 }
+
+.modalStyle {
+  outline-width: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: fit-content;
+  margin: 200px auto;
+
+  padding: 30px;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.cancelBtn {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: #093445;
+}
+
+.cancelBtn:hover {
+  color: #093445a9;
+}
+
+.form > input {
+  outline-width: 0;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 30px;
+  background-color: transparent;
+
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.form > Button {
+  margin-top: 20px;
+  background-color: #093445;
+  color: white;
+}
+
+.form > Button:hover {
+  background-color: #093445a9;
+}
+
+.modalTitle {
+  font-family: crimson text;
+  color: #093445;
+  margin-top: 10px;
+  padding: 10px 40px;
+}

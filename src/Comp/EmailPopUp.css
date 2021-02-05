@@ -2,15 +2,15 @@
   display: flex;
   position: absolute;
   top: 55px;
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
 }
 
 .popUpContainer {
-  width: 1000px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
-  background: #fff;
+  background: rgb(179, 112, 112);
   color: #000;
   display: grid;
   grid-template-columns: 1fr 1fr;
