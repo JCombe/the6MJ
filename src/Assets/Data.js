@@ -27,7 +27,7 @@ export const featureObjTwo = {
         "Drei Fragen bevor sie schlafen gehen.",
     // featureEng:
     //     "These question are design to make you reflect on your day and all the experiences you had wheter good or bad. There is also a section for individual notes.",
-    feauture:
+    feature:
         "Diese Fragen sind konzipiert worden, um auf Ihren Erfahrungen die Sie am Tag machten, ob gut oder schlecht, zu reflektieren.",
     imgStart: "start",
     img: JournalNight,

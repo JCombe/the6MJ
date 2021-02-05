@@ -6,8 +6,8 @@ function Footer() {
     return (
 
         <div className="footer">
-            <h5>Designt and entworfen von Julian Biscombe.</h5>
-            <Link to="/Impressum">
+            <div className="text">Designt and entworfen von Julian Biscombe.</div>
+            <Link to="/Impressum" className="link">
                 Impressum
                 {/* <h5>Impressum</h5> */}
             </Link>

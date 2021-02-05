@@ -23,8 +23,6 @@
 }
 
 .imgBox {
-  display: flex;
-  justify-content: space-evenly;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

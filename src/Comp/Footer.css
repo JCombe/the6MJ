@@ -2,9 +2,18 @@
   display: flex;
   justify-content: space-between;
   background-color: #edc1b4;
+  align-items: center;
+  padding-bottom: 15px;
 }
 
-h5 {
+.text {
+  font-family: crimson text;
+  color: #093445;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.link {
   font-family: crimson text;
   color: #093445;
   margin-left: 45px;
