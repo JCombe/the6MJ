@@ -1,9 +1,13 @@
 .navComp {
+  position: fixed;
+  background: rgb(255, 255, 255, 0.85);
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
   height: fit-content;
+  z-index: 999;
 }
 
 .navCompRight {
@@ -35,6 +39,7 @@
   border: 2px solid #093445;
   border-radius: 10px;
   padding: 5px 25px;
+  text-transform: none;
 }
 
 .navCompRight > button:hover {

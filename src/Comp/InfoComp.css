@@ -10,9 +10,14 @@
   height: fit-content;
 }
 
+.whiteSpace {
+  height: 55px;
+  color: white;
+}
+
 .infoTop {
   max-width: 550px;
-  margin: 70px auto;
+  margin: 50px auto;
 }
 
 .infoBot {
@@ -22,13 +27,14 @@
 .infoBot > button {
   font-family: crimson text;
   margin: auto;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
   color: white;
   background-color: #093445;
   border-radius: 10px;
   padding: 10px 50px;
-  width: 300px;
+  width: 350px;
+  text-transform: none;
 }
 
 .infoBot > button:hover {
@@ -94,11 +100,4 @@
 
 .form > Button:hover {
   background-color: #093445a9;
-}
-
-.modalTitle {
-  font-family: crimson text;
-  color: #093445;
-  margin-top: 10px;
-  padding: 10px 40px;
 }

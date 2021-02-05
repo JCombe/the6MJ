@@ -13,26 +13,29 @@ function InfoComp() {
     const [opened, setOpened] = useState(false)
 
     return (
-        <div className="info" style={{ backgroundImage: `url(${beach})` }}>
-            <div className="infoTop">
-                <h1>Dein elektronische Tagebuch um deine Produktivität zu verbessern und Achtsamkeit zu üben.</h1>
+        <div>
+            <div className="whiteSpace"></div>
+            <div className="info" style={{ backgroundImage: `url(${beach})` }}>
+                <div className="infoTop">
+                    <h1>Dein elektronische Tagebuch um deine Produktivität zu verbessern und Achtsamkeit zu üben.</h1>
 
-                <h1>Überall und immer dabei.</h1>
-            </div>
-            <div className="infoBot">
-                <h3>Getestet und erfolgreiche Konzepte.</h3>
-                <Button onClick={() => setOpened(true)}>
-                    <AppleIcon className="appleIcon" style={{ fontSize: 35 }} />
+                    <h1>Überall und immer dabei.</h1>
+                </div>
+                <div className="infoBot">
+                    <h3>Erfolgreiche und getestete Konzepte.</h3>
+                    <Button onClick={() => setOpened(true)}>
+                        <AppleIcon className="appleIcon" style={{ fontSize: 35 }} />
                     Zur Mitteilungsliste anmelden
                 </Button>
-                {
-                    opened &&
-                    <Modal onClose={() => setOpened(false)} />
-                }
-                <h6>Gratis App mit besondere Leistungen für Premium-Kunden.</h6>
-            </div>
-            <div className="wave1" style={{ backgroundImage: `url(${wave1})` }} ></div>
-        </div >
+                    {
+                        opened &&
+                        <Modal onClose={() => setOpened(false)} />
+                    }
+                    <h6>Gratis App mit besondere Leistungen für Premium-Kunden.</h6>
+                </div>
+                <div className="wave1" style={{ backgroundImage: `url(${wave1})` }} ></div>
+            </div >
+        </div>
     )
 }
 
