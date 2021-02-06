@@ -9,6 +9,8 @@ function Modal({ onClose }) {
 
     const [sent, setSent] = useState(false)
 
+    const [check, setCheck] = useState(false)
+
     function sendEmail(e) {
 
         console.log("Email was sent!")
@@ -54,6 +56,8 @@ function Modal({ onClose }) {
                         <br />
                         <Button id="sendBtn" type="submit">Abschicken</Button>
                     </form>
+                    <br />
+                    <div className="einverstaendnisErk"> Mit der Taste "Abschicken" willigen Sie zur unseren <a href="/Impressum">Datenschutzrichlinien</a> zu.</div>
                 </div>
             </div>
         </div >

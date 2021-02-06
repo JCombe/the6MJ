@@ -125,3 +125,9 @@ button[disabled] {
     height: fit-content;
   }
 }
+
+.einverstaendnisErk {
+  font-family: crimson text;
+  color: #093445;
+  font-size: 15px;
+}

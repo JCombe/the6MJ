@@ -13,7 +13,7 @@ export const featureObjOne = {
     // featureEng:
     //     "These question are asked in order to trigger greatfulness for big and small things, improve your focus and for reinsure your mind of your many strengths.",
     feature:
-        "Diese Fragen lösen Dankbarkeit für Kleinigkeiten als auch für besondere Dinge. Sie verbessern Ihre Fokus und vergewissert Ihren unterbewusstsein, dass Sie besondere Stärken besitzen.",
+        "Diese Fragen lösen Dankbarkeit für Kleinigkeiten als auch für besondere Dinge. Sie verbessern dadurch Ihren täglichen Fokus und erinnern Ihren unterbewusstsein, dass Sie besondere Stärken besitzen.",
     imgStart: "",
     img: JournalDay,
     header: "on",
@@ -24,11 +24,11 @@ export const featureObjTwo = {
     // featureTitleEng:
     //     "Answer three question in before you go to bed.",
     featureTitle:
-        "Drei Fragen bevor sie schlafen gehen.",
+        "Drei Fragen bevor Sie schlafen gehen.",
     // featureEng:
     //     "These question are design to make you reflect on your day and all the experiences you had wheter good or bad. There is also a section for individual notes.",
     feature:
-        "Diese Fragen sind konzipiert worden, um auf Ihren Erfahrungen die Sie am Tag machten, ob gut oder schlecht, zu reflektieren.",
+        "Diese Fragen sind konzipiert worden, um auf Ihren Erfahrungen die Sie am Tag gemacht haben, ob gut oder schlecht, zu reflektieren. Durch praktizieren und reflektieren lernen wir.",
     imgStart: "start",
     img: JournalNight,
     header: "",
@@ -44,7 +44,7 @@ export const featureObjThree = {
     // featureEng:
     //     "Go back in time and see what feelings and thoughts went through you mind on a specific day.",
     feature:
-        "Gehen Sie zurück in die Vergangenheit und lesen Sie welche Gedanken und Gefühle Sie erlebt haben",
+        "Gehen Sie zurück in die Vergangenheit und lesen Sie welche Gedanken und Gefühle Sie erlebt haben.",
     imgStart: "",
     img: JournalCalendar,
     header: "",

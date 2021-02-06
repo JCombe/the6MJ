@@ -17,12 +17,12 @@ function InfoComp() {
             <div className="whiteSpace"></div>
             <div className="info" style={{ backgroundImage: `url(${beach})` }}>
                 <div className="infoTop">
-                    <h1>Dein elektronische Tagebuch um deine Produktivität zu verbessern und Achtsamkeit zu üben.</h1>
+                    <h1>Dein privates elektronisches Tagebuch, um Ihre Produktivität zu verbessern und Achtsamkeit zu üben.</h1>
 
                     <h1>Überall und immer dabei.</h1>
                 </div>
                 <div className="infoBot">
-                    <h3>Erfolgreiche und getestete Konzepte.</h3>
+                    <h3>Den Schutz Ihre Daten liegt uns am Herzen. Erfolgreiche und getestete Konzepte.</h3>
                     <Button onClick={() => setOpened(true)}>
                         <AppleIcon className="appleIcon" style={{ fontSize: 35 }} />
                     Zur Mitteilungsliste anmelden
